@@ -1,13 +1,18 @@
 import styled from "styled-components"
 
 export const LinkStyled =  styled.a`
-            display: inline-block;
+            display: flex;
+            align-items: center;
             position: relative;
             margin: auto;
             text-decoration: none;
             color:  #007bff;
             transition: 200ms;
-
+            
+            > img {
+               padding-left: 5px ;
+               color: #007bff;
+            }
       :hover{
             color:#1ebbf0;
       }

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Navbar } from "./Navbar";
 
 export const HeaderStyled = styled.header`
     width: 100%;
@@ -24,7 +25,7 @@ export const ImgDivStyled = styled.img`
 `
 
 export const NavbarDivStyled = styled.div`
-    width: 300px;
+    width: 350px;
     display: flex;
     
     @media (max-width: 764px) {
