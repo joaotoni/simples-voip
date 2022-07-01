@@ -1,10 +1,15 @@
 import { Header } from "./components/Header"
 import "./styles/global.css"
+import Main from "./components/Main"
 
 function App() {
 
   return (
-    <Header />
+    <div>
+        <Header />
+        <Main />
+    </div>
+    
   )
 }
 
