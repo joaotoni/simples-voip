@@ -7,8 +7,9 @@ return(
     <div>
         <FormStyled >
             <div>
-                <h2></h2>
-                <p></p>
+                <h2>Atenda seus clientes de forma simultânea e automática!</h2>
+                <p>Tenha diversos atendentes prestando atendimento atraves de um unico
+                    numero do whatsapp.</p>
                 <FirstLink texto= "whats" redirect  = "/whats"/>
             </div>
             <div>
