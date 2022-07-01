@@ -5,7 +5,7 @@ export default function Second_Banner(){
         <div>
             <form >
                 <div>
-                    <h3>Otimize o atendimento por WhatsApp da sua empresa</h3>
+                    <p>Otimize o atendimento por WhatsApp da sua empresa</p>
                     <p>Simplifique a Comunicação via WhatsApp entre Clientes e sua Empresa 
                         com uma linha centralizada de WhatsApp para vários usuários e dispositivos. 
                     </p>
