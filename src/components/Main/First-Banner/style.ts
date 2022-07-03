@@ -3,9 +3,11 @@ import styled from "styled-components"
 
 export const FormStyled = styled.form`
     display: flex;
+    justify-content: center;
+    background-color: rgb(22, 49, 107);;
 `
 
-export const titleStyled = styled.h2`
+export const TitleStyled = styled.h2`
     color: rgb(255, 255, 255);
     opacity: 1;
     width: 593px;
@@ -16,7 +18,7 @@ export const titleStyled = styled.h2`
     line-height: 44px;
     text-align: left;
 `
-export const pStyled = styled.p`
+export const PStyled = styled.p`
     color: rgb(255, 255, 255);
     opacity: 1;
     width: auto;
@@ -27,7 +29,7 @@ export const pStyled = styled.p`
     line-height: 24px;
 `
 
-export const imgStyled = styled.img`
+export const ImgStyled = styled.img`
     
 `
 
