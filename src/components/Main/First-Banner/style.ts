@@ -5,6 +5,7 @@ export const FormStyled = styled.form`
     display: flex;
     justify-content: center;
     background-color: rgb(22, 49, 107);;
+    flex-wrap: wrap;
 `
 
 export const TitleStyled = styled.h2`
@@ -17,19 +18,23 @@ export const TitleStyled = styled.h2`
     letter-spacing: 1px;
     line-height: 44px;
     text-align: left;
+    @media (max-width: 764px) {
+        width: auto;
+    }
 `
 export const PStyled = styled.p`
     color: rgb(255, 255, 255);
-    opacity: 1;
-    width: auto;
+    
+    width: 350px;
     height: 51px;
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
+    margin-bottom: 6%;
 `
 
 export const ImgStyled = styled.img`
-    
+    width: auto;
 `
 

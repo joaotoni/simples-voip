@@ -1,1 +1,35 @@
 import styled from "styled-components"
+
+export const FormStyledd = styled.form`
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+`
+
+export const H1Styled = styled.h1`
+    display: block;
+    margin-block-start: 1em;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 42px;
+`
+
+export const Pstyledd = styled.p`
+    color: #8b8d94;
+    line-height: 31px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 27px;
+    width: 400px;
+    
+
+`
+
+
+
+export const ImgStyledd = styled.img`
+    margin-top: 20%;
+    
+`

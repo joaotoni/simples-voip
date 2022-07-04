@@ -1,21 +1,25 @@
 import Banner2 from "../../../assets/images/banner2.png"
+import FirstLink from "../Links/SecondLink/SecondLink"
+import { FormStyledd, Pstyledd, H1Styled, ImgStyledd } from "./style"
 
 export default function Second_Banner(){ 
     return(
         <div>
-            <form >
+            <FormStyledd >
                 <div>
-                    <p>Otimize o atendimento por WhatsApp da sua empresa</p>
-                    <p>Simplifique a Comunicação via WhatsApp entre Clientes e sua Empresa 
-                        com uma linha centralizada de WhatsApp para vários usuários e dispositivos. 
-                    </p>
-                    <p>Direcione as solicitações a cada área, através do nosso Chatbot.</p>
-                    
+                    <H1Styled>Otimize  o atendimento<br></br> por WhatsApp da sua empresa</H1Styled>
+                    <Pstyledd>Simplifique a Comunicação via WhatsApp entre Clientes e sua Empresa 
+                        com uma linha centralizada de WhatsApp para vários usuários e dispositivos.<br></br>
+                        Direcione as solicitações a cada área, através do nosso Chatbot. 
+                    </Pstyledd>
+                    <div>
+                        <FirstLink texto= "Solicitar Demonstração" redirect  = "/whats"/>
+                    </div>
                 </div>
                 <div>
-                    <img src={Banner2} alt="" width={"487px"} height={"364px"}/>
+                    <ImgStyledd src={Banner2} alt="" width={"400px"} height={"340px"}/>
                 </div>
-            </form>
+            </FormStyledd>
         </div>
     )
     }
