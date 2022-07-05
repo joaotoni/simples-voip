@@ -7,7 +7,7 @@ export const FormStyled = styled.form`
     background-color: rgb(22, 49, 107);;
     flex-wrap: wrap;
     height: 90vh;
-    @media (max-width: 900px) {
+    @media (max-width: 1000px) {
         height: auto;
     }
 `

@@ -7,7 +7,6 @@ export const HeaderStyled = styled.header`
     display: grid;
     position: sticky;
     top: -10px;
-    transition: all 0.3s ease 0s;
     box-shadow: 0 0 15px 1px rgb(0 0 0 / 7%);
 `
 
