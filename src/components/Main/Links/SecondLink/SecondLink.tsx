@@ -1,4 +1,4 @@
-import {AStyledd} from "./Second"
+import {AStyledd} from "./second"
     interface LinkProps{
         texto: string;
         redirect: string;

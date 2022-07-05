@@ -6,6 +6,18 @@ export const FormStyled = styled.form`
     justify-content: center;
     background-color: rgb(22, 49, 107);;
     flex-wrap: wrap;
+    height: 90vh;
+    @media (max-width: 1000px) {
+        height: auto;
+    }
+`
+export const DivStyled = styled.div`
+    margin: 10% 15px;
+    
+    @media (max-width: 900px) {
+        margin: 10px 15x;
+    }
+
 `
 
 export const TitleStyled = styled.h2`
@@ -31,7 +43,7 @@ export const PStyled = styled.p`
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 6%;
+    margin-bottom: 40px;
 `
 
 export const ImgStyled = styled.img`

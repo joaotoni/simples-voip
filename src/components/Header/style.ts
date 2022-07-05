@@ -5,6 +5,9 @@ export const HeaderStyled = styled.header`
     background-color: #ffff;
     height: 90px;
     display: grid;
+    position: sticky;
+    top: -10px;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 7%);
 `
 
 export const SpacingDivStyled = styled.div`
@@ -24,7 +27,7 @@ export const ImgDivStyled = styled.img`
 `
 
 export const NavbarDivStyled = styled.div`
-    width: 300px;
+    width: 350px;
     display: flex;
     
     @media (max-width: 764px) {

@@ -1,6 +1,6 @@
 import { Navbar } from "./Navbar";
 import {HeaderStyled, ImgDivStyled, NavbarDivStyled, SpacingDivStyled} from "./style"
-import Whats from "../../assets/icons/whats.svg"
+import Whats from "../../assets/icons/whatsapp.png"
 import Logo from "../../assets/images/logo.jpg"
 
 export function Header() {
@@ -12,7 +12,9 @@ export function Header() {
         <NavbarDivStyled>
           <Navbar text={"Recursos"}/>
           <Navbar text={"Planos"}/>
-          <Navbar text ={"Falar com atendente"}/>
+          <Navbar text ={"Falar com atendente"}>
+            <img src={Whats} alt="Logo Whatsapp" height={16} />
+          </Navbar>
         </NavbarDivStyled>
       </SpacingDivStyled>
     </HeaderStyled>
