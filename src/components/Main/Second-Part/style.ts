@@ -6,6 +6,10 @@ export const FormStyledd = styled.form`
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2%;
+    @media (max-width: 764px) {
+        width: auto;
+        margin: 0 15px;
+    }
 `
 
 export const H1Styled = styled.h1`
@@ -23,6 +27,9 @@ export const Pstyledd = styled.p`
     font-weight: 500;
     font-size: 27px;
     width: 400px;
+    @media (max-width: 764px) {
+        width: auto;
+    }
     
 
 `

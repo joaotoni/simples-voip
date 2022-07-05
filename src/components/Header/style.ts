@@ -1,11 +1,14 @@
 import styled from "styled-components"
-import { Navbar } from "./Navbar";
 
 export const HeaderStyled = styled.header`
     width: 100%;
     background-color: #ffff;
     height: 90px;
     display: grid;
+    position: sticky;
+    top: -10px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 7%);
 `
 
 export const SpacingDivStyled = styled.div`
