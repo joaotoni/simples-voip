@@ -11,6 +11,14 @@ export const PStyled = styled.p`
 `
 
 export const DivStyled = styled.div`
-    display: grid;
+    padding: 16px 16px 0 0;
     text-align: center;
+`
+export const H4Styled = styled.h4`
+    font: normal bold 20px / 30px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+`
+
+export const DivStyledd = styled.div`
+    text-align: center;
+    padding: 60px;
 `
