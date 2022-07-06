@@ -5,4 +5,7 @@ body{
   padding:0;
   background-color: white;
   font-family: "Roboto, Arial", Helvetica, Arial, Verdana, sans-serif;
+  
 }
+
+*{scroll-behavior: smooth;}
