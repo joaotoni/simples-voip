@@ -33,9 +33,6 @@ export const Pstyledd = styled.p`
     
 
 `
-
-
-
 export const ImgStyledd = styled.img`
     margin-top: 20%;
     
