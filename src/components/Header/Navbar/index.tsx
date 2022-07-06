@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { LinkStyled } from "./style"
+import { LinkStyled, LinkStyle } from "./style"
 
 
 interface NavbarProps{
@@ -11,6 +11,15 @@ interface NavbarProps{
 
 export function Navbar(props:NavbarProps) {
   return (
-      <LinkStyled href="#recursos">{props.text}{props.children}</LinkStyled>
+    <>
+      <LinkStyled href="#recursos" >{props.text}{props.children}</LinkStyled>
+    </>
+  )
+}
+export function SecondNavbar(props:NavbarProps) {
+  return (
+    <>
+<LinkStyle href="#plano" >{props.text}{props.children}</LinkStyle>
+</>
   )
 }

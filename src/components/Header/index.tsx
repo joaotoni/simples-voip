@@ -1,4 +1,4 @@
-import { Navbar } from "./Navbar";
+import { Navbar, SecondNavbar } from "./Navbar";
 import {HeaderStyled, ImgDivStyled, NavbarDivStyled, SpacingDivStyled} from "./style"
 import Whats from "../../assets/icons/whatsapp.png"
 import Logo from "../../assets/images/logo.jpg"
@@ -11,7 +11,7 @@ export function Header() {
         <ImgDivStyled src={Logo} alt="Logo Simple Voip" height={"90px"} />
         <NavbarDivStyled>
           <Navbar text={"Recursos"} redirect={"#recursos"} />
-          <Navbar text={"Planos"} redirect={"#plano"} />
+          <SecondNavbar text={"Planos"} redirect={"#plano"} />
           <Navbar text ={"Falar com atendente"}>
             <img src={Whats} alt="Logo Whatsapp" height={16} />
           </Navbar>

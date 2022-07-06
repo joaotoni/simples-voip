@@ -1,29 +1,24 @@
-import { DivStyled, FormStyledd, DivStyle, DivStyl } from "./styled"
+import LastLink from "../Links/LastLink/Last"
+
+import { DivStyled, SectionStyledd, DivStyle,DivStyl } from "./styled"
+import Banner from "../../../assets/images/Banner.png"
 
 export default function Four(){
     return(
-        <div>
+        <DivStyled id="plano">
              <DivStyled>
-                    <h4>Nossos Planos</h4> 
+                    <h4>Nosso Plano</h4> 
             </DivStyled>
-            <FormStyledd id="plano">
+            <SectionStyledd >
 
-                <DivStyle>
-                    <h2>Basic</h2>
-                </DivStyle>
+            <DivStyle>
+                <h2>Basic</h2>
+                <p className="Mensal">Mensal</p>
+                <p className="Valor">150,00</p>
+                <p className="aten">1 numero e até 3 atendentes</p>
+                <p className="Add">R$49,90 por atendente adicional</p>
+            </DivStyle>
                 <DivStyl>
-                    <p>Mensal</p>
-                </DivStyl>
-                <div>
-                    <p>150,00</p>
-                </div>
-                <div>
-                    <p>1 numero e até 3 atendentes</p>
-                </div>
-                <div>
-                    <p>R$49,90 por atendente adicional</p>
-                </div>
-                <div>
                     <ul>
                         <ol>Transferencia de atendente</ol>
                         <hr />
@@ -49,8 +44,10 @@ export default function Four(){
                         <hr />
                         <ol>Treinamento</ol>
                     </ul>
-                </div>
-            </FormStyledd>
-    </div>
+                </DivStyl>
+                <LastLink texto= "Solicitar Demonstração" redirect  = "/whats"/>
+            </SectionStyledd>
+            <img src={Banner} alt="" />
+    </DivStyled>
     )
 }
