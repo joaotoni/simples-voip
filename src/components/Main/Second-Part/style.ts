@@ -37,5 +37,3 @@ export const ImgStyledd = styled.img`
     margin-top: 20%;
     
 `
-
-/// testando branch
