@@ -6,10 +6,11 @@ interface NavbarProps{
   text ?:string,
   href ?:string
   children ?: ReactNode
+  redirect ?: string
 }
 
 export function Navbar(props:NavbarProps) {
   return (
-      <LinkStyled href="">{props.text}{props.children}</LinkStyled>
+      <LinkStyled href="#recursos">{props.text}{props.children}</LinkStyled>
   )
 }

@@ -10,8 +10,8 @@ export function Header() {
       <SpacingDivStyled>
         <ImgDivStyled src={Logo} alt="Logo Simple Voip" height={"90px"} />
         <NavbarDivStyled>
-          <Navbar text={"Recursos"}/>
-          <Navbar text={"Planos"}/>
+          <Navbar text={"Recursos"} redirect={"#recursos"} />
+          <Navbar text={"Planos"} redirect={"#plano"} />
           <Navbar text ={"Falar com atendente"}>
             <img src={Whats} alt="Logo Whatsapp" height={16} />
           </Navbar>
