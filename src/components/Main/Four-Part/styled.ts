@@ -13,6 +13,31 @@ export const DivStyled = styled.div`
     
     img{
         margin-bottom: 60px;
+        
+        @media (max-width: 1200px) {
+        width: 1000px;
+    }
+    @media (max-width: 1000px) {
+        width: 900px;
+    }
+    @media (max-width: 900px) {
+        width: 800px;
+    }
+    @media (max-width: 800px) {
+        width: 700px;
+    }
+    @media (max-width: 700px) {
+        width: 600px;
+    }
+    @media (max-width: 600px) {
+        width: 500px;
+    }
+    @media (max-width: 500px) {
+        width: 400px;
+    }
+    @media (max-width: 400px) {
+        width: 300px;
+    }
     }
 `
 
