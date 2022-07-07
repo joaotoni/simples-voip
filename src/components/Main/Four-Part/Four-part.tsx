@@ -45,7 +45,7 @@ export default function Four(){
                         <ol>Treinamento</ol>
                     </ul>
                 </DivStyl>
-                <LastLink texto= "Solicitar Demonstração" redirect  = "/whats"/>
+                <LastLink texto= "Assinar Plano" redirect  = "https://www.asaas.com/c/250742374980"/>
             </SectionStyledd>
             <img src={Banner} alt="" />
     </DivStyled>

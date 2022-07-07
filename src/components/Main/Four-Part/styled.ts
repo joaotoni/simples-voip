@@ -56,6 +56,8 @@ export const DivStyle = styled.div`
         text-align: center;
         color: white;
         margin: 0;
+        background: #1d98d6;
+        
     }
     .aten{
         font-size: 16px;
