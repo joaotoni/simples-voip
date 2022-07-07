@@ -12,7 +12,7 @@ export default function Four(){
             <SectionStyledd >
 
             <DivStyle>
-                <h2>Basic</h2>
+                <h2>Plano Mensal</h2>
                 <p className="Mensal">Mensal</p>
                 <p className="Valor">150,00</p>
                 <p className="aten">1 numero e até 3 atendentes</p>

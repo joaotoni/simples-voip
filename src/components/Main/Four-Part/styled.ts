@@ -23,7 +23,7 @@ export const SectionStyledd= styled.section`
     
 `
 export const DivStyle = styled.div`
-    background: rgba(51,51,51,1);
+    background: #1d98d6;
     color: white;
     display: flex;
     flex-direction:column;
@@ -32,8 +32,8 @@ export const DivStyle = styled.div`
 
     h2{
         margin-bottom: -3px!important;
-        border-bottom: #111 solid 1px;
-        background: #222;
+        
+        background: #1d98d6;
         padding: 0px 18px;
         font-size: 32px;
         color: white;
@@ -72,7 +72,7 @@ export const DivStyle = styled.div`
         line-height: 20px;
         font-weight: 300;
         text-align: center;
-        color: #999;
+        color: #222;
         margin: 0;
     }
 `
