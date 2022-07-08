@@ -1,9 +1,9 @@
 import { FooterStyled } from "./style";
 
- export function Footer(){
-  return(
+export function Footer() {
+  return (
     <FooterStyled>
-      <p>Todos os direitos reservados. Copyright ©2021 SIMPLE VOIP</p>
+      <p>Todos os direitos reservados. Copyright ©{new Date().getFullYear()} SIMPLE VOIP</p>
     </FooterStyled>
-  )
- }
+  );
+}
