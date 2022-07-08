@@ -33,4 +33,5 @@ export const Pstyled = styled.p`
 `;
 export const ImgStyled = styled.img`
   margin-top: 20%;
+  width: auto;
 `;
