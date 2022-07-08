@@ -13,7 +13,7 @@ export default function Second_Banner(){
                         Direcione as solicitações a cada área, através do nosso Chatbot. 
                     </Pstyledd>
                     <div>
-                        <FirstLink texto= "Solicitar Demonstração" redirect  = "/whats"/>
+                        <FirstLink texto= "Solicitar Demonstração" />
                     </div>
                 </div>
                 <div>
