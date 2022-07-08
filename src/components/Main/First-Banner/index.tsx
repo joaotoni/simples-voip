@@ -11,6 +11,7 @@ import {
 export default function First_Banner() {
   return (
     <div>
+
       <FormStyled>
         <DivStyled>
           <TitleStyled>
@@ -26,6 +27,7 @@ export default function First_Banner() {
           <ImgStyled src={Banner} alt="" width={"355px"} height={"324px"} />
         </DivStyled>
       </FormStyled>
+
     </div>
   );
 }

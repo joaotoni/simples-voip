@@ -7,6 +7,7 @@ export default function Second_Banner() {
     <div>
       <FormStyled>
         <div>
+
           <H1Styled>
             Otimize o atendimento<br></br> por WhatsApp da sua empresa
           </H1Styled>
@@ -22,6 +23,7 @@ export default function Second_Banner() {
               href="https://api.whatsapp.com/send?phone=5511955505449&text=Temos%20interesse%20na%20plataforma%20Simples%20VOIP%20De%20Multi%20Atendimento"
             />
           </div>
+
         </div>
         <div>
           <ImgStyled src={Banner2} alt="" width={"400px"} height={"340px"} />
