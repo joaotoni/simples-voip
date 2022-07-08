@@ -1,12 +1,12 @@
-import {AStyledd} from "./second"
+import {AStyled} from "./second"
     interface LinkProps{
         texto: string;
         href?: string;
     }
 export default function FirstLink (props: LinkProps){
     return (
-        <AStyledd className="link-banner" href="https://api.whatsapp.com/send?phone=5511955505449&text=Temos%20interesse%20na%20plataforma%20Simples%20VOIP%20De%20Multi%20Atendimento" target= "_blank">
+        <AStyled className="link-banner" href="https://api.whatsapp.com/send?phone=5511955505449&text=Temos%20interesse%20na%20plataforma%20Simples%20VOIP%20De%20Multi%20Atendimento" target= "_blank">
             {props.texto}
-        </AStyledd>
+        </AStyled>
     )
 }
