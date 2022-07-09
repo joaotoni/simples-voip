@@ -15,7 +15,7 @@ export default function Four() {
           <p className="Mensal">Mensal</p>
           <p className="Valor">150,00</p>
           <p className="aten">1 numero e até 3 atendentes</p>
-          <p className="Add">R$49,90 por atendente adicional</p>
+          <p className="Add">Usuários ilimitados</p>
         </DivStyle>
         <DivStyl>
           {listOl.map((element, index) => (

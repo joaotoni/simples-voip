@@ -96,6 +96,7 @@ export const LinkStyl =  styled.a`
             bottom: -5px;
             left: 0;
             background-color: #1ebbf0;
-            
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
       }
 `
