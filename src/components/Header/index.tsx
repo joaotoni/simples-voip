@@ -19,7 +19,7 @@ export function Header() {
           <WhatsNavbar
             text={"Falar com atendente "}
             redirect={
-              "https://api.whatsapp.com/send?phone=5511955505449&text=Temos%20interesse%20na%20plataforma%20Simples%20VOIP%20De%20Multi%20Atendimento"
+              "https://wa.me/message/ECHLT45IPHXLF1"
             }
           >
             <img src={Whats} alt="Logo Whatsapp" height={16} />
